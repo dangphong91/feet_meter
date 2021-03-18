@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th {
+            width: 25%;
+            text-align: left;
+        }
+        td,input {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Feet</th>
+            <th>Meter</th>
+            <th>Meter</th>
+            <th>Feet</th>
+        </tr>
+        <tr>
+            <td><input id="feed"><button onclick="footToMeter()">Convert</button></td>
+            <td id="displaymeter"></td>
+            <td><input id="meter"><button onclick="meterToFoot()">Convert</button></td>
+            <td id="displayfeed"></td>
+        </tr>
+    </table>
+</body>
+<script src="edit.js"></script>
+</html>
